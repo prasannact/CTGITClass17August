@@ -12,6 +12,8 @@ public class ClarksBrowserlaunch {
 		driver.get("https://www.clarksusa.com/");
 		driver.manage().window().maximize();
 		
+		System.out.println("Done");
+		
 	}
 	
 	
